@@ -2555,9 +2555,10 @@ ul.icons li .icon:before {
 #logo {
 	border-right: 4px solid #FFAB4C;
 
-	width: 15ch;
-	animation: typing 2s steps(15), blink .5s infinite step-end alternate;
+	width: 24ch;
+	animation: typing 2s steps(24), blink .5s infinite step-end alternate;
 	overflow: hidden;
+
 }
 
 @keyframes typing {
