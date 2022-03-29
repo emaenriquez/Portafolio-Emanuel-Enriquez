@@ -2160,9 +2160,10 @@ input[type="radio"]+label:before {
 	font-weight: 400;
 }
 
+/* 
 .icon>.label {
 	display: none;
-}
+} */
 
 .icon:before {
 	line-height: inherit;
@@ -2526,7 +2527,7 @@ ul.feature-icons li p {
 	bottom: 1rem;
 	left: 20px;
 	font-size: 20px;
-	color: #142F43;
+	/* color: #142F43; */
 }
 
 /* Icons */
@@ -2535,6 +2536,7 @@ ul.icons {
 	cursor: default;
 	list-style: none;
 	padding-left: 0;
+	color: #fff;
 }
 
 ul.icons li {
@@ -2549,29 +2551,6 @@ ul.icons li:last-child {
 ul.icons li .icon:before {
 	font-size: 1.25em;
 }
-
-/* Logo name */
-
-#logo {
-	border-right: 4px solid #FFAB4C;
-
-	width: 23ch;
-	animation: typing 2s steps(23), blink .5s infinite step-end alternate;
-	overflow: hidden;
-}
-
-@keyframes typing {
-	from {
-		width: 0;
-	}
-}
-
-@keyframes blink {
-	50% {
-		border-color: transparent;
-	}
-}
-
 
 
 /* Table */
@@ -3197,6 +3176,7 @@ input[type="button"]:disabled,
 
 	#titleBar .title {
 		color: #fff;
+		background-color: #142F43;
 		display: block;
 		font-weight: 700;
 		height: 44px;
@@ -3236,7 +3216,7 @@ input[type="button"]:disabled,
 	}
 
 	#titleBar .toggle:before {
-		background: #4acaa8;
+		background: #FFAB4C;
 		color: #ffffff;
 		content: '\f0c9';
 		display: block;
