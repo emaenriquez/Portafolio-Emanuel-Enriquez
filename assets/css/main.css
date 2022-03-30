@@ -2953,6 +2953,23 @@ input[type="button"]:disabled,
 
 #main>section {
 	border-top: solid 6px #f4f4f4;
+	/* height: 110vh; */
+}
+
+@media screen and (min-width:1024px) {
+
+	#two {
+		height: 100vh;
+	}
+
+}
+
+@media screen and (min-width:768px) {
+
+	#two {
+		height: 100vh;
+	}
+
 }
 
 #main>section>.container {
