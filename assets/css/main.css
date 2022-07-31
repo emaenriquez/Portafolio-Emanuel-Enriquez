@@ -1,6 +1,6 @@
-/* * {
+* {
 	font-family: 'Supermercado One', cursive;
-} */
+}
 html,
 body,
 div,
@@ -228,6 +228,8 @@ i {
 
 p {
 	margin: 0 0 2.25em 0;
+	color: #142F43;
+	letter-spacing: 1px;
 }
 
 h1,
